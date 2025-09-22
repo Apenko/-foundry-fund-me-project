@@ -43,7 +43,7 @@ jobs:
       - name: Run Forge build
         run: forge build --sizes
         continue-on-error: true
-
+        
       # Run tests (ignore test failures to stop workflow from failing)
       - name: Run Forge tests
         run: forge test -vvv
